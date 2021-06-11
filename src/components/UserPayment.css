@@ -1,0 +1,100 @@
+.user > h3{
+    color:grey;
+    font-size: 28px;
+    letter-spacing: 3px;
+}
+
+.content{
+    width: 100%;
+}
+
+.content__inside{
+    display: flex;
+    flex-direction: row;
+    margin:2% 5% 10% 5%;
+    justify-content: space-between;
+}
+
+.amount__card{
+    border : 2px solid #0F9D58;
+    padding:7%;
+    border-radius: 16px;
+    background-color:#0F9D58;
+    align-self: center;
+}
+
+.amount{
+    display: flex;
+    justify-items: center;
+}
+
+.amount> span {
+    font-size: 48px;
+    font-weight:750 ;
+    color: white;
+}
+
+.transaction > span{
+    margin-top:6px;
+    color:#F4B400;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+.payment__card{
+    border : 2px solid #0F9D58;
+    padding:7%;
+    border-radius: 16px;
+    background-color:#0F9D58;
+    width: 40%;
+    align-self: center;
+}
+
+.input>form>input{
+    width: 100%;
+    padding: 16px;
+    border: 2px solid white;
+    border-radius: 14px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.input > form > input :focus{
+    border: 2px solid black;
+}
+
+.amount__click{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.amount__click > span {
+    color:white;
+    border: 1px solid black ;
+    background-color: white;
+    color: black;
+    margin:3%;
+    padding: 4px;
+    border-radius: 16px;
+    width:15%;
+    padding:10px;
+    text-align: center;
+}
+
+.input > form >.pay {
+    margin-top:30px;
+    margin-left:32%;
+    border: 2px solid #F4B400;
+    background-color:#F4B400;
+    color:black;
+    width:30%;
+    padding:8px;
+    border-radius: 28px;
+    font-size:28px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    
+}
