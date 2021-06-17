@@ -26,6 +26,8 @@
 .amount{
     display: flex;
     justify-items: center;
+    background-color:#3d358a;
+   
 }
 
 .amount> span {
